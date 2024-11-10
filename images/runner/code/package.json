@@ -1,0 +1,29 @@
+{
+  "name": "github-test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "run": "vite-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "install": "^0.13.0",
+    "octokit": "^4.0.2",
+    "ollama": "^0.5.9",
+    "remark-break-line": "^0.0.14",
+    "remark-parse": "^11.0.0",
+    "remark-reference-links": "^7.0.0",
+    "remark-stringify": "^11.0.0",
+    "remark-wiki-link": "^2.0.1",
+    "simple-git": "^3.27.0",
+    "undici": "^6.20.1",
+    "unified": "^11.0.5",
+    "vite-node": "^2.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.1"
+  }
+}
